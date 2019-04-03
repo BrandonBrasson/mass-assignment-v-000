@@ -5,6 +5,7 @@ class Person
     def initialize(attributes)
       attributes.each do |name, value|
         self.send(("#{name}="), value)
+         attributes << []
       end
     end
   end
