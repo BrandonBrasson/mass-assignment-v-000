@@ -7,6 +7,6 @@ class Person
       ("#{name}="), value)
         # name.map do |name, value|
          #attributes << []
-      end
+
     end
   end
