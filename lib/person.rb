@@ -5,6 +5,6 @@ class Person
     def initialize(attributes)
       all? { |e|  }
 
-      end
+
     end
   end
