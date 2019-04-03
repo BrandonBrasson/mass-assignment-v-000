@@ -4,7 +4,8 @@ class Person
 
     def initialize(name)
       name.map do |name, value|
-        self.send(("#{name}="), value)
+      ("#{name}="), value)
+        # name.map do |name, value|
          #attributes << []
       end
     end
